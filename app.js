@@ -1,5 +1,7 @@
-<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
-<script>
+$(function(){
+
+  var name ; var role; var date; var MonthWork; var MonthRate; var total; var employee=[];
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCMgSS7i2CBJE5BdmaIah7gZEk6DmTLglQ",
@@ -10,4 +12,6 @@
     messagingSenderId: "605542098125"
   };
   firebase.initializeApp(config);
-</script>
+
+});
+
